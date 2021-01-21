@@ -35,7 +35,11 @@ const Project = (props) => {
           <p className={styles.techP}>{props.project.tech}</p>
         </div>
         <div className={styles.btns}>
-          {props.project.github === null ? null : (
+          {props.project.github === null ? (
+            <div className={styles.privateRepo}>
+              <span>Private</span>
+            </div>
+          ) : (
             <div className={styles.gitLink}>
               <a
                 className={handleBackgroundColor(props.index + 1)}

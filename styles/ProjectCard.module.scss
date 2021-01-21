@@ -96,6 +96,19 @@
             }
           }
         }
+
+        .privateRepo {
+          font-size: 20px;
+          margin-top: 0.5rem;
+          padding: 0.5rem 1rem;
+          background-color: #b781d0;
+          border-radius: 20px;
+          border: 4px solid white;
+          span {
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
     }
   }
@@ -198,6 +211,25 @@
               transform: translateY(2px);
               filter: brightness(90%);
             }
+          }
+        }
+
+        .privateRepo {
+          border: 6px solid white;
+          padding: 0.5rem 2rem;
+          border-radius: 15px;
+          width: 100%;
+          color: white;
+          font-size: 20px;
+          display: block;
+          width: 100%;
+          text-align: center;
+          position: relative;
+          left: 35px;
+          background-color: #b781d0;
+          span {
+            width: 100%;
+            height: 100%;
           }
         }
       }
