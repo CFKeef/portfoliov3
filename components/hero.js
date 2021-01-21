@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Content.module.scss";
 import Mural from "../public/images/mural.svg";
 
-const Content = () => {
+const Hero = () => {
   return (
     <section className={styles.contentContainer}>
       <div className={styles.textContainer}>
@@ -21,4 +21,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Hero;

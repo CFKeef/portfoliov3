@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Content from "../components/content";
+import Hero from "../components/Hero";
 import Footer from "../components/footer";
 import Navigation from "../components/navigation";
 import styles from "../styles/Home.module.scss";
@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navigation />
-        <Content />
+        <Hero />
         <Footer />
       </main>
     </div>
