@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Content.module.scss";
+import styles from "../styles/Hero.module.scss";
 import Mural from "../public/images/mural.svg";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
       </div>
       <div className={styles.muralContainer}>
-        <img src={Mural} />
+        <img draggable={"false"} src={Mural} />
       </div>
     </section>
   );

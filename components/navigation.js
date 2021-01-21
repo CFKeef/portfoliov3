@@ -9,7 +9,7 @@ const Navigation = () => {
     <header className={styles.navContainer}>
       <Link href={"/"}>
         <a>
-          <img src={Logo} />
+          <img draggable={"false"} src={Logo} />
         </a>
       </Link>
       <nav>

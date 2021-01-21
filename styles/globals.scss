@@ -32,9 +32,21 @@ a {
   box-sizing: border-box;
 }
 
-.sectionHeader {
+.purpleHeader {
+  font-size: 24px;
+  mark {
+    background: linear-gradient(to top, #b781d0 50%, transparent 50%);
+  }
+}
+.redHeader {
   font-size: 24px;
   mark {
     background: linear-gradient(to top, #fd828a 50%, transparent 50%);
+  }
+}
+.greenHeader {
+  font-size: 24px;
+  mark {
+    background: linear-gradient(to top, #0fcfc9 50%, transparent 50%);
   }
 }

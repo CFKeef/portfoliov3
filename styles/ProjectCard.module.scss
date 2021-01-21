@@ -1,0 +1,215 @@
+@media (max-width: 29em) {
+  .listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    .cardContainer {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+
+      .cardImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 1rem;
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 50%;
+          background-color: white;
+        }
+      }
+
+      .projText {
+        width: 100%;
+        padding: 0 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        h2 {
+          font-size: 18px;
+          font-weight: 700;
+          margin: 0;
+        }
+
+        p {
+          font-size: 16px;
+          margin-top: 4px;
+          margin-bottom: 16px;
+          color: rgba(255, 255, 255, 0.65);
+        }
+
+        .techP {
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      }
+      .btns {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .gitLink,
+        .liveLink {
+          display: inline-block;
+          width: 50%;
+
+          a {
+            border: 4px solid white;
+            border-radius: 4rem;
+            width: 125px;
+            height: 52px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            display: block;
+            width: 65%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+              filter: brightness(110%);
+              cursor: pointer;
+            }
+
+            &:active {
+              transform: translateY(2px);
+              filter: brightness(90%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 30em) {
+  .listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    .cardContainer {
+      border-radius: 2rem;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+
+      .cardImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        margin: 1rem 0;
+
+        img {
+          height: auto;
+          width: 250px;
+          border-radius: 50%;
+          background-color: white;
+        }
+      }
+
+      .projText {
+        width: 100%;
+        height: 100%;
+        padding: 0 22px;
+        margin-right: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
+
+        h2 {
+          font-size: 20px;
+          font-weight: 700;
+          margin: 0;
+        }
+
+        p {
+          font-size: 18px;
+          color: rgba(255, 255, 255, 0.65);
+          margin: 0 0 1rem 0;
+        }
+
+        .tech-p {
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      }
+      .btns {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .gitLink,
+        .liveLink {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+
+          a {
+            border: 6px solid white;
+            padding: 0.5rem 2rem;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            left: 35px;
+
+            &:hover {
+              filter: brightness(110%);
+              cursor: pointer;
+            }
+
+            &:active {
+              transform: translateY(2px);
+              filter: brightness(90%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.redBackground {
+  background: #fd828a;
+}
+.purpleBackground {
+  background: #b781d0;
+}
+.greenBackground {
+  background: #0fcfc9;
+}
