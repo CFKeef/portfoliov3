@@ -19,7 +19,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link href="/contact">
-              <a className={styles.contactBtn}>Lets Chat</a>
+              <a className={styles.contactBtn}>Contact</a>
             </Link>
           </li>
         </ul>

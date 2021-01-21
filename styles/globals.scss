@@ -31,3 +31,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.sectionHeader {
+  font-size: 24px;
+  mark {
+    background: linear-gradient(to top, #fd828a 50%, transparent 50%);
+  }
+}
