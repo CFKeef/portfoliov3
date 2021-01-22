@@ -18,9 +18,9 @@ const Navigation = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link href="/contact">
-              <a className={styles.contactBtn}>Contact</a>
-            </Link>
+            <a href="#contact" className={styles.contactBtn}>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>

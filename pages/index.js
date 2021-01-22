@@ -6,6 +6,7 @@ import Navigation from "../components/navigation";
 import Projects from "../components/projects";
 
 import styles from "../styles/Home.module.scss";
+import CallToAction from "../components/calltoaction";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Navigation />
         <Hero />
         <Projects />
+        <CallToAction />
         <Footer />
       </main>
     </div>

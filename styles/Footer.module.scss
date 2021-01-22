@@ -1,0 +1,56 @@
+.footerContainer {
+  @media screen and (max-width: 415px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    div {
+      width: 50%;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+      display: flex;
+      margin-bottom: 2rem;
+      a {
+        img {
+          height: 35px;
+          width: auto;
+
+          &:hover {
+            cursor: pointer;
+          }
+
+          &:active {
+            transform: translateY(2px);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 416px) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    width: 20rem;
+    margin-bottom: 2rem;
+
+    a {
+      img {
+        height: 35px;
+        width: auto;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:active {
+          transform: translateY(2px);
+        }
+      }
+    }
+  }
+}
