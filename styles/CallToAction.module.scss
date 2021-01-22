@@ -40,6 +40,11 @@
           border: none;
           padding: 1rem 1rem;
           background-color: #ededed;
+          font-family: proxima_nova;
+        }
+
+        &:placeholder-shown {
+          font-family: proxima_nova;
         }
       }
 
