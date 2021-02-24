@@ -1,53 +1,74 @@
 @font-face {
-  font-family: "proxima_nova";
-  src: url("../public/fonts/proximanova-regular-webfont.woff2") format("woff2"),
-    url("../public/fonts/proximanova-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+	font-family: "proxima_nova";
+	src: url("../public/fonts/proximanova-regular-webfont.woff2")
+			format("woff2"),
+		url("../public/fonts/proximanova-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "proxima_nova";
-  src: url("../public/fonts/proximanova-bold-webfont.woff2") format("woff2"),
-    url("../public/fonts/proximanova-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: bold;
+	font-family: "proxima_nova";
+	src: url("../public/fonts/proximanova-bold-webfont.woff2") format("woff2"),
+		url("../public/fonts/proximanova-bold-webfont.woff") format("woff");
+	font-weight: bold;
+	font-style: bold;
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: proxima_nova;
-  font-style: normal;
-  height: 100vh;
-  scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	font-family: proxima_nova;
+	font-style: normal;
+	height: 100vh;
+	scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 .purpleHeader {
-  font-size: 24px;
-  mark {
-    background: linear-gradient(to top, #b781d0 50%, transparent 50%);
-  }
+	font-size: 24px;
+	mark {
+		background: linear-gradient(to top, #b781d0 50%, transparent 50%);
+	}
 }
 .redHeader {
-  font-size: 24px;
-  mark {
-    background: linear-gradient(to top, #fd828a 50%, transparent 50%);
-  }
+	font-size: 24px;
+	mark {
+		background: linear-gradient(to top, #fd828a 50%, transparent 50%);
+	}
 }
 .greenHeader {
-  font-size: 24px;
-  mark {
-    background: linear-gradient(to top, #0fcfc9 50%, transparent 50%);
-  }
+	font-size: 24px;
+	mark {
+		background: linear-gradient(to top, #0fcfc9 50%, transparent 50%);
+	}
+}
+.button2 {
+	background-color: #0fcfc9;
+}
+.button0 {
+	background-color: #fd828a;
+}
+.button1 {
+	background-color: #b781d0;
 }

@@ -1,61 +1,63 @@
 .footerContainer {
-  @media screen and (max-width: 415px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    div {
-      width: 50%;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: row;
-      display: flex;
-      margin-bottom: 2rem;
-      a {
-        img {
-          height: 35px;
-          width: auto;
+	@media screen and (max-width: 415px) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		width: 100%;
+		div {
+			width: 50%;
+			justify-content: space-evenly;
+			align-items: center;
+			flex-direction: row;
+			display: flex;
+			margin-bottom: 2rem;
+			a {
+				img {
+					height: 35px;
+					width: auto;
 
-          &:hover {
-            cursor: pointer;
-          }
+					&:hover {
+						cursor: pointer;
+					}
 
-          &:active {
-            transform: translateY(2px);
-          }
-        }
-      }
-    }
-  }
+					&:active {
+						transform: translateY(2px);
+					}
+				}
+			}
+		}
+	}
 
-  @media screen and (min-width: 416px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    div {
-      width: 30%;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: row;
-      display: flex;
-      margin: 0.5rem 0 1rem 0;
-      a {
-        img {
-          height: 35px;
-          width: auto;
+	@media screen and (min-width: 416px) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		width: 100%;
+		max-width: 1100px;
+		margin-top: 4rem;
+		div {
+			width: 30%;
+			justify-content: space-evenly;
+			align-items: center;
+			flex-direction: row;
+			display: flex;
+			margin: 0.5rem 0 1rem 0;
+			a {
+				img {
+					height: 35px;
+					width: auto;
 
-          &:hover {
-            cursor: pointer;
-          }
+					&:hover {
+						cursor: pointer;
+					}
 
-          &:active {
-            transform: translateY(2px);
-          }
-        }
-      }
-    }
-  }
+					&:active {
+						transform: translateY(2px);
+					}
+				}
+			}
+		}
+	}
 }
