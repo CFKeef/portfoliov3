@@ -86,7 +86,7 @@ const SelectedProjects = ({ items }) => {
 	};
 	return (
 		<div className={styles.selectedContainer}>
-			<h1 className>Selected Projects</h1>
+			<h1>Selected Projects</h1>
 			<div>{generateCards()}</div>
 		</div>
 	);
