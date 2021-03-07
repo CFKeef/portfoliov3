@@ -26,33 +26,32 @@ const SelectedProjects = ({ items }) => {
 								/>
 							</div>
 							<div className={styles.description}>
-								<div>
-									<div className={styles.infoContainer}>
-										<h2>{element.fields.projectName}</h2>
-										<p>{element.fields.desc}</p>
-									</div>
-									<div className={styles.techContainer}>
-										<h4>Technology Used:</h4>
-										<ul>
-											{element.fields.techUsed.map(
-												(tech, selfIndex) => {
-													return (
-														<li
-															key={
-																element.fields
-																	.projectName +
-																"tech" +
-																selfIndex
-															}
-														>
-															<p>{tech}</p>
-														</li>
-													);
-												}
-											)}
-										</ul>
-									</div>
+								<div className={styles.infoContainer}>
+									<h2>{element.fields.projectName}</h2>
+									<p>{element.fields.desc}</p>
 								</div>
+								<div className={styles.techContainer}>
+									<h4>Technology Used:</h4>
+									<ul>
+										{element.fields.techUsed.map(
+											(tech, selfIndex) => {
+												return (
+													<li
+														key={
+															element.fields
+																.projectName +
+															"tech" +
+															selfIndex
+														}
+													>
+														<p>{tech}</p>
+													</li>
+												);
+											}
+										)}
+									</ul>
+								</div>
+
 								<div className={styles.buttonContainer}>
 									{element.fields.githubLink ? (
 										<a

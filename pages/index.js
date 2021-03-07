@@ -3,7 +3,6 @@ import axios from "axios";
 import Hero from "../components/hero";
 import Footer from "../components/footer";
 import Navigation from "../components/navigation";
-import Projects from "../components/projects";
 import NewProjects from "../components/projects/projects";
 import styles from "../styles/Home.module.scss";
 import CallToAction from "../components/calltoaction";
