@@ -28,14 +28,3 @@ export default function Home({ data }) {
 	);
 }
 
-export const getStaticProps = async () => {
-	const data = await axios.get(process.env.CONTENTFUL_LINK);
-
-	return {
-		props: {
-			data: data.data,
-		},
-		// Will revalidate data every day
-		revalidate: 86400,
-	};
-};
